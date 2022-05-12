@@ -1,0 +1,105 @@
+body{
+
+    text-align: center;
+    background-image: linear-gradient(aqua,blue);
+    margin:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: monospace;
+    
+
+}
+html {
+    height: 100%;
+}
+h1{
+    margin-top: 40px;
+    font-family: monospace;
+    
+}
+p{
+    font-size: larger;
+}
+#inputBox{
+    margin-bottom: 20px;
+    line-height: 0.2em;
+    
+}
+#mazeBox{
+    
+    width: 600px;
+    height: 600px;
+    margin:auto; 
+}
+
+#btnBox{
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    align-content: space-between;
+    height: 70px;
+
+}
+#numBlockInput{
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+.button{
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(216, 216, 231);
+    font-weight: 500;
+    font-size: larger;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+#rat{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+#mazeConteiner{
+    position: relative;
+    background-color: gray;
+    margin:auto;
+}
+
+#maze{
+    z-index:1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    outline:3px solid black;
+    
+}
+#player ,#end{
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    
+}
+#player{
+    top:3px;  
+    left:3px;
+    z-index:10; 
+}
+#end{
+    top:483px;  
+    left:483px;
+    z-index:9;
+}
+#imgPlayer, #imgEnd{
+    height: 100%;
+    width: 100%;
+}
+

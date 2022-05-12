@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+
+<head>
+  <title>Maze</title>
+  <link href='style.css' rel='stylesheet' type='text/css' />
+  <script src='script.js'></script>
+  
+  
+</head>
+
+<body onload="drawMaze()">
+  <h1>Maze</h1>
+ 
+  <div id='inputBox'>
+    <p>Number of rows/columns:<span id='numBlockOutput'>15</span></p>
+    <input id='numBlockInput' type="range" value="15" min='5' max="30" step='5' oninput='showVal(this.value)'>
+  </div>
+
+  <div id=btnBox>
+    <input class='button' type='button' value='Show me the rat!' onmousedown='drawRat()' onmouseup="resetRat()">
+    <input class='button' type='button' value='Draw new maze' onclick='drawMaze()'>
+    <input id='bttStart' class='button' type='button' value='Start game' onclick='startGame()'>
+  </div>
+
+  <h2 id='instruction'></h2>
+
+  <div id='mazeBox'>
+    <img src='temp.jpg' class='imgRat' id='rat' style='display:none' alt='Best boy'>
+    <div id='mazeConteiner' style='display:visible'>
+      <canvas id='maze' width="600px" height="600px">Your browser does not support HTML5 Canvas</canvas>
+      <div id='player' style='display:none'><img src='player.png' id='imgPlayer'></div>
+      <div id='end' style='display:none'><img src='end.png' id='imgEnd'></div>
+    </div>
+
+  </div>
+</body>
+
+
+
+</html>
