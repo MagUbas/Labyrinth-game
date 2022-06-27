@@ -11,4 +11,4 @@
 
  # If I had more time I would change this <br />
  - Make it more visually appealing.  
- - Fix visuall error on 25 rows/columns size board
+ - Fix visual error on 25 rows/columns size board
