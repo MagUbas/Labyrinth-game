@@ -15,4 +15,4 @@
  # If I had more time I would: <br />
  - Make it more visually appealing.  
  - Fix visual error on 25 rows/columns size board
- - MAke it responsive on phones/tablets 
+ - Make it responsive on phones/tablets 
