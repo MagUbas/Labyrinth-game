@@ -1,4 +1,7 @@
 # Labyrinth Game Webpage
+<img src="https://user-images.githubusercontent.com/105423536/176178840-56bc87e6-fe50-45a7-8080-ddd81218b3f3.png" alt="image" width="500"/>
+
+
 ## Motivation  <br />
   This was my first "bigger"  project in JavaScript. <br />
   My goal was to: <br />
@@ -7,8 +10,6 @@
   - make something fun :)
 
  ## How to navigate this project <br />
- <img src="https://user-images.githubusercontent.com/105423536/176151139-f592186c-980d-4597-882a-713c397a09ca.png" alt="image" width="500"/>
- 
 
  This is a pretty straightforward project. It is a small labyrinth game, <br />
  that can be played on 6 different difficulty levels. <br />
