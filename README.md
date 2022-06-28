@@ -6,9 +6,13 @@
   - make something fun :)
 
  # How to navigate this project <br />
+ ![image](https://user-images.githubusercontent.com/105423536/176151139-f592186c-980d-4597-882a-713c397a09ca.png)
+
  This is a pretty straightforward project. It is a small labyrinth game, <br />
  that can be played on 6 different difficulty levels. <br />
+ Labyrinth is made using Prim's algorithm.
 
- # If I had more time I would change this <br />
+ # If I had more time I would: <br />
  - Make it more visually appealing.  
  - Fix visual error on 25 rows/columns size board
+ - MAke it responsive on phones/tablets 
