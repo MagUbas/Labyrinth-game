@@ -1,6 +1,8 @@
 # Labyrinth Game Webpage
 <img src="https://user-images.githubusercontent.com/105423536/176178840-56bc87e6-fe50-45a7-8080-ddd81218b3f3.png" alt="image" width="500"/>
+<br/>
 
+[Live site](https://labyrinth-game-neon.vercel.app/)
 
 ## Motivation  <br />
   This was my first "bigger"  project in JavaScript. <br />
