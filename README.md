@@ -17,7 +17,3 @@
  that can be played on 6 different difficulty levels. <br />
  Labyrinth is made using Prim's algorithm.
 
- ## If I had more time I would: <br />
- - Make it more visually appealing.  
- - Fix visual error on 25 rows/columns size board
- - Make it responsive on phones/tablets 
